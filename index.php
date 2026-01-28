@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p2wtkn - Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        /* Column container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Style the topnav */
+        div.topnav ul {
+            justify-content: center;
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+        }
+
+        /* Style links in topnav */
+        div.topnav ul li a {
+            display: block;
+            color: #f1f1f1;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        div.topnav ul li a:hover {
+            background-color: #dddddd;
+            color: black;
+        }
+
+        /* Sidebar/left column */
+        .sidebar-left {
+            flex: 20%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .sidebar-right {
+            flex: 20%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Main column */
+        .main {
+            flex: 60%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        @media screen and (max-width: 700px) {
+
+            .container,
+            .topnav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1>Welcome to p2wtkn's Portfolio.</h1>
+            <p>"ยินดีต้อนรับสู่เว็บไซต์เก็บสะสมผลงานของ นายณฐดิษฐ์ วัฑฒกานนท์"</p>
+        </div>
+        <div class="topnav">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Project</a></li>
+                <li><a href="index.php">Contact</a></li>
+                <li><a href="index.php">Review me</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="sidebar-left">
+                <h3>About me</h3>
+                <p><b>p2wtkn</b></p>
+                <div class="fakeimg" style="height: 200px;"></div>
+                <p>ณฐดิษฐ์ วัฑฒกานนท์</p>
+                <p>(Natadit Watthakanon)</p>
+                <p>ETC25 SWU75</p>
+                <p><i>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam libero iure labore modi ducimus dolorum eaque repudiandae sequi, minima, dolore numquam nihil, nam at doloribus eligendi esse molestiae vitae? Dolorem!"</i></p>
+            </div>
+
+            <div class="main">
+                <div>
+                    <h2>Expertise</h2>
+                    <h4>Coding language</h4>
+                    <ul>
+                        <li>Javascript ------------------ xxx%</li>
+                        <li>PHP ------------------ xxx%</li>
+                        <li>HTML ------------------ xxx%</li>
+                        <li>CSS ------------------ xxx%</li>
+                    </ul>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi inventore, doloribus quia voluptatibus saepe incidunt praesentium ad quo aliquid consequatur dicta nemo qui cupiditate alias harum temporibus accusantium dolores sequi?</p>
+                </div>
+
+                <div>
+                    <h2>Experience</h2>
+                    <h4>Studying in Department of Educational Technology and Computing</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi inventore, doloribus quia voluptatibus saepe incidunt praesentium ad quo aliquid consequatur dicta nemo qui cupiditate alias harum temporibus accusantium dolores sequi?</p>
+                    <h4>Working with XXX</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt temporibus, facere odit similique quo molestias sed totam tempore quis aperiam unde, eaque aspernatur consequuntur nihil veniam dignissimos rem, natus excepturi.</p>
+                    <h4>Developer of XXX project</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis veniam corrupti porro, libero amet nisi impedit sed architecto magni quas. Amet possimus, quis quae sequi iusto ab id debitis nulla?</p>
+                </div>
+
+                <div>
+                    <h2>Masterpieces</h2>
+                    <h4>CoinCraft Project!</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi inventore, doloribus quia voluptatibus saepe incidunt praesentium ad quo aliquid consequatur dicta nemo qui cupiditate alias harum temporibus accusantium dolores sequi?</p>
+                </div>
+            </div>
+
+            <div class="sidebar-right">
+                <h3>Update</h3>
+                <p><a href="">New Project!คอยคราฟมาแล้ว</a></p>
+                <p><a href="">28/01/69:ผลงานเวอร์ชั่นใหม่</a></p>
+                <p><a href="">28/01/69:ผลงานเวอร์ชั่นใหม่</a></p>
+                <p><a href="">28/01/69:ผลงานเวอร์ชั่นใหม่</a></p>
+
+                <h3>GitHub</h3>
+                <div class="fakeimg" style="height: 200px;"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores id exercitationem necessitatibus voluptate accusamus blanditiis deleniti tenetur, quasi aperiam unde, maiores iure vero nulla sunt sint dolore aliquam tempore doloribus?</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+</body>
+
+</html>
